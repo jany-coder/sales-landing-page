@@ -1,0 +1,11 @@
+@import '../../styles/shared/color.scss';
+
+.content-service::before {
+    content: "";
+    height: 72px;
+    width: 2px;
+    background: #FF7000;
+    float: left;
+    margin-right: 22px;
+    margin-top: 7px;
+}

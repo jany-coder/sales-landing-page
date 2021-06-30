@@ -1,0 +1,203 @@
+@import "../../styles/shared/color.scss";
+@import "../../styles/shared/fonts-definition.scss";
+
+.text-container {
+    position: relative;
+}
+
+.text-container-right {
+    position: relative;
+}
+
+.margin-left {
+    margin-left: 55px;
+}
+
+.margin-right {
+    margin-right: 55px;
+}
+
+
+.text-container::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: #3C73F1;
+    top: 12px;
+    right: -90px;
+
+}
+
+.text-container-right::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: #3C73F1;
+    top: 12px;
+    left: -90px;
+
+}
+
+.omni-cycling img {
+    position: relative;
+}
+
+
+.features-left {
+    padding-right: 70px;
+}
+    
+
+.features-right {
+    padding-left: 70px;
+}
+
+
+.banner{
+    position: relative;
+}
+
+.btn-white {
+    position: absolute;
+    right: 10%;
+    top: 37%;
+}
+
+.banner-text {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    color: #fff;
+    left: 10%;
+    top: 30%;
+}
+
+
+@media (max-width: 766px) {
+
+    .text-container {
+        position: relative;
+    }
+    
+    .text-container-right {
+        position: relative;
+    }
+    
+    
+    .text-container::after {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 5px;
+        background-color: #3C73F1;
+        top: 12px;
+        right: -90px;
+        visibility: hidden;
+        overflow: hidden;
+    
+    }
+    
+    .text-container-right::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 5px;
+        background-color: #3C73F1;
+        top: 12px;
+        left: -90px;
+        visibility: hidden;
+        overflow: hidden;
+    
+    }
+
+    .margin-left {
+        margin-left: 0;
+    }
+    
+    .margin-right {
+        margin-right: 0;
+    }
+    
+    .omni-cycling img {
+        position: relative;
+    }
+    
+    
+    .features-left {
+        padding-right: 0;
+    }
+        
+    
+    .features-right {
+        padding-left: 0;
+
+    }
+
+    .banner{
+        position: relative;
+        visibility: hidden;
+        
+    }
+    
+    .btn-white {
+        position: absolute;
+        right: 30%;
+        top: 37%;
+        background-color: $primary-color;
+        color: #fff;
+    }
+    
+    .banner-text {
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        position: absolute;
+        color: #fff;
+        left: 10%;
+        top: 30%;
+        visibility: hidden;
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    .text-container::after {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 5px;
+        background-color: #3C73F1;
+        top: 12px;
+        right: -90px;
+        visibility: hidden;
+        overflow: hidden;
+    
+    }
+    
+    .text-container-right::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 5px;
+        background-color: #3C73F1;
+        top: 12px;
+        left: -90px;
+        visibility: hidden;
+        overflow: hidden;
+    
+    }
+
+    .features-left {
+        padding-right: 0;
+    }
+        
+    
+    .features-right {
+        padding-left: 0;
+
+    }
+}
+
+
+

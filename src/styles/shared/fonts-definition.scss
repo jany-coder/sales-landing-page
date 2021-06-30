@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import './color.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+$regular-font-size: 16px;
+$medium-font-size: 30px;
+$medium-extrabold: 25px;
+$large-extra-bold: 40px;
+$footer-header-bold: 35px;
+$menu-text: 20px;
+$roboto-regular: 'Roboto', sans-serif;
+$roboto-medium: 'Roboto', sans-serif;
+$inter-extra-bold: 'Inter', sans-serif;
+
+
+
+.roboto-regular {
+    font-family: $roboto-regular ;
+    font-size: 24px;
+}
+
+.section-title {
+    font-size: $medium-font-size;
+    font-weight: 500;
+    color: $primary-color; 
+}
+
+.section-heading h2 {
+    font-size: $large-extra-bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: $secondary-color;
+}
+
+.regular-font {
+    font-size: $regular-font-size;
+    color: $regular-text-color;
+}
+
+.sec-title-third h4{
+    font-size: $medium-extrabold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: $info-color;
+}
+
+.roboto-medium-20 {
+    font-size: 20px;
+    font-family: $roboto-medium;
+    font-weight: 500;
+}

@@ -1,0 +1,47 @@
+@import '../../styles/shared/fonts-definition.scss';
+@import '../../styles/shared/color.scss';
+
+.button-round-nav {
+    border-radius: 45px;
+    padding: 14px 42px;
+    color: $primary-color;
+    background-color: #fff;
+    border: none;
+    &:hover{
+        background-color: $primary-color;
+        color: #fff;
+    }
+}
+
+.menu-text {
+    font-size: $menu-text;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padding-width-22 {
+    padding: 0 22px !important;
+    &:hover {
+        color: $primary-color !important;
+    }
+}
+
+
+.logo {
+    width: 186px;
+}
+
+.nav-section {
+    position: relative;
+}
+
+.header-img-bg {
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
+
+.header-circle {
+    position: absolute;
+    left: 0;
+    top: 0s;
+}

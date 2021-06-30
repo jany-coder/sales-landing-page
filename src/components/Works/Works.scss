@@ -1,0 +1,65 @@
+@import '../../styles/shared/fonts-definition.scss';
+@import '../../styles/shared/color.scss';
+
+
+.works-bg{
+    background-color: #f5f5f5;
+    border-radius: 45px;
+    position: relative;
+}
+
+.learn-more h4{
+    font-size: 20px;
+    color: $primary-color;
+    font-family: $roboto-medium;
+    font-weight: 500;
+}
+
+.works-bg-inside{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.works-p{
+    padding: 40px 20px;
+}
+
+.works-icon img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+
+.device {
+    position: relative;
+    margin-bottom: -22px;
+}
+
+.device-img {
+    position: absolute;
+    max-width: 230px;
+    left: 255px;
+    top: 28px;
+}
+
+
+.works-begin {
+    padding: 320px 37px 270px 50px;
+}
+
+.shadow {
+    box-shadow:  3px 5px 6px #ccc; 
+}
+
+@media (max-width: 766px) {
+
+    .device-img {
+        position: absolute;
+        max-width: 230px;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+}

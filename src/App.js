@@ -8,6 +8,7 @@ import Features from './components/Features/Features';
 import Gallery from './components/Gallery/Gallery';
 import Subscribe from './components/Subscribe/Subscribe';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Gallery />
       <Subscribe />
       <Contact />
+      <Footer />
     </div>
   );
 }

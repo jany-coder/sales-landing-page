@@ -7,7 +7,7 @@ import banner from '../../assets/banner-small.png';
 
 const Features = () => {
     return (
-        <section className="container-fluid mt-5">
+        <section className="container-fluid mt-5 ">
             <div className="text-center">
                 <Container>
                     <div className="section-title">
@@ -23,7 +23,7 @@ const Features = () => {
                         </p>
                     </div>
 
-                    <Row className="">
+                    <Row className=""> 
                         <Col md={4}>
 
                             <div className="features-left">

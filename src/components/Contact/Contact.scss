@@ -1,0 +1,73 @@
+@import '../../styles/shared/color.scss';
+@import '../../styles/shared/fonts-definition.scss';
+
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    background:#fff;
+    padding: 60px 45px;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.25); 
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.25);
+    
+}
+
+.wrapper .title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-size: $large-extra-bold;
+    color: $secondary-color;
+  }
+
+.wrapper .form .input_field{
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+.wrapper .form .input_field .input{
+    width: 100%;
+    padding: 12px;
+    padding-left: 30px;
+    border: none;
+    background: #eeeeee;
+}
+
+.input_field textarea {
+    width: 100%;
+    padding: 12px;
+    padding-left: 30px;
+    border: none;
+    background: #eeeeee;
+    min-height: 100px;
+}
+
+.wrapper .form .btn{
+    width: 70%;
+    margin: 20px auto 0;
+    background: $primary-color;
+    text-align: center;
+    padding: 12px;
+    border-radius: 25px;
+  }
+
+  .wrapper .form .btn a{
+    color: #fff;
+  }
+
+  .wrapper .form .input_field span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    color: #1d2120;
+  }
+
+
+  /*------*/
+
+  .contact-p {
+      color: $secondary-color;
+      font-size: $menu-text;
+  }

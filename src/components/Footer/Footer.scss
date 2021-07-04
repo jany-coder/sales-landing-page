@@ -1,0 +1,73 @@
+@import '../../styles/shared/color.scss';
+@import '../../styles/shared/fonts-definition.scss';
+
+.footer-bg {
+    background-color: $primary-color;
+}
+
+.footer-p-t {
+    padding: 100px 0px 20px 0;
+}
+
+hr.line {
+    border: 1px solid rgba($color: #fff, $alpha: .5);
+    
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-style h3 {
+    font-size: $medium-font-size;
+    font-family: $inter-extra-bold;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-style p {
+    font-family: $regular-font-size;
+    color: #fff;
+    font-weight: 200s;
+}
+
+.copyright small {
+    color: #fff;
+}
+
+.footer-style input {
+    width: 70%;
+    padding: 12px;
+    padding-left: 30px;
+    border: none;
+    background: #eeeeee;
+    position: relative;
+}
+
+.footer-style span {
+    padding: 12px 20px;
+    border: none;
+    color: $primary-color;
+    background: rgba(255, 255, 255, 0.575);
+    position: absolute;
+}
+
+.footer-container {
+    position: relative;
+}
+
+.shape-one {
+    position: absolute;
+    top: -234px;
+    right: 0px;
+}
+
+.shape-two {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+}
+
+
+

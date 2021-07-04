@@ -8,7 +8,7 @@ import dot from '../../assets/dot.png';
 const Works = () => {
     return (
         <>
-            <section>
+            <section className="mt-5">
                 <div className="works-bg container works-p-b d-flex align-items-center container">
                     <Row>
                         <Col md={6}>

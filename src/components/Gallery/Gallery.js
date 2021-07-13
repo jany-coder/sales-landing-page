@@ -9,7 +9,7 @@ import img5 from '../../assets/gallery-05.png';
 
 const Gallery = () => {
     return (
-        <section className="text-center mt-5">
+        <section id="product" className="text-center mt-5">
             <Container >
 
                 <div className="gallery-image-bg">

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Navbar, Nav, Form, Button, NavDropdown, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, NavItem, Nav, Form, Button, NavDropdown, Container, Row, Col } from 'react-bootstrap';
 import logo from '../../assets/logo.png';
 import headerBg from '../../assets/header-bg.png';
 import headerCircle from '../../assets/header-circle.png';
-import './Navbar.scss';
+import './NavHeader.scss';
 
-const Header = () => {
+const NavHeader = () => {
     return (
         <section className="nav-section container-fluid">
             <div>
@@ -47,4 +47,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default NavHeader;

@@ -10,7 +10,7 @@ const Contact = () => {
     const mail = <FontAwesomeIcon icon={faEnvelope} />
     const edit = <FontAwesomeIcon icon={faEdit} />
     return (
-        <section className="mt-5">
+        <section id="contact" className="mt-5">
             <Container>
                 <Row>
                     <Col md={1}></Col>

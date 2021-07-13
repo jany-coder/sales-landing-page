@@ -7,7 +7,7 @@ import '../../styles/shared/fonts-definition.scss'
 const Service = () => {
     return (
         <>
-            <section className="mt-5">
+            <section id="service" className="mt-5">
                 <Container>
                     <Row>
                         <Col md={6}>

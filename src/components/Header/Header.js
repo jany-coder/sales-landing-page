@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import Navbar from '../Navbar/Navbar';
+import NavHeader from '../NavHeader/NavHeader';
 import '../../styles/shared/button.scss';
 import './Header.scss';
 import lock from '../../assets/smart-lock.png';
@@ -11,7 +11,7 @@ const Header = () => {
         <>
             <div className="header-bg-rect">
                 <section >
-                    <Navbar></Navbar>
+                    <NavHeader></NavHeader>
                 </section>
                 <section>
                     <div className="padding-header">

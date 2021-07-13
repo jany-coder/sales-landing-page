@@ -55,4 +55,19 @@
     border-radius: 45px;
     position: relative;
     padding: 80px 145px;
+    text-align: center;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px){
+  .subscribe-bg {
+    background-color: #f5f5f5;
+    border-radius: 45px;
+    position: relative;
+    padding: 20px 20px;
+  }
 }
